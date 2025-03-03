@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-<body>
-    <h1>About</h1>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-    </ul>
-    
-</body>
-</html>
+@extends('layouts.pjrstore')
+
+@section('content')
+    <div class="container mx-auto px-4 py-16">
+        <h1 class="text-3xl font-bold mb-4">About Us</h1>
+        <p class="text-lg">
+            La tua libreria di fiducia
+        </p>
+    </div>
+@endsection
+

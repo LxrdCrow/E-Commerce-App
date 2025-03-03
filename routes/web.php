@@ -4,11 +4,17 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProvaController;
 
 Route::get('/', function () {
-    return view('home');
+    return view ('home', [
+        'pageTitle' => 'HomePage',
+        'metaTitle' => 'Pjr Store'
+    ]);
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        'pageTitle' => 'About Us',
+        'metaTitle' => 'Pjr Store'
+    ]);
 });
 
 

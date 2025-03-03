@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-</head>
-<body>
+@extends('layouts.pjrstore')
 
-    <h1>PJRStore</h1>
-    
-</body>
-</html>
+@section('content')
+    <div class="container mx-auto px-4 py-16">
+        <h1 class="text-3xl font-bold mb-4">Benvenuti in PJR Store</h1>
+        <p class="text-lg">
+            Catalogo
+        </p>
+    </div>
+@endsection
+
